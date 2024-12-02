@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-rou
 function App() {
   return (
     <>
-      <BrowserRouter basename="/react-pokedex/">
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
