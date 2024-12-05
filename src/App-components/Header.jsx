@@ -5,8 +5,8 @@ function Header() {
     <div className="header">
       <div className="logo"></div>
       <div className="navbar">
-        <a href="/react-pokedex/">Home</a>
-        <a href="/react-pokedex/random">Random Pokémon</a>
+        <a href="/">Home</a>
+        <a href="/random">Random Pokémon</a>
       </div>
     </div>
   );
