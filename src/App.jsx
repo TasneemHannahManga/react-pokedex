@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-rou
 function App() {
   return (
     <>
-      <Router>
+      <BrowserRouter basename={"/react-pokedex/"}>
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
           <Route exact path="/pokemon/:id" element={<PokePage />} />
         </Routes>
         <Footer />
-      </Router>
+      </BrowserRouter>
     </>
   );
 }
