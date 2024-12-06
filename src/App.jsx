@@ -4,7 +4,7 @@ import RandomPokémonGenerator from "./App-components/Pages/RandomPokémonGenera
 import Home from "./App-components/Pages/Home";
 import PokePage from "./App-components/Pages/PokePage";
 import Footer from "./App-components/Footer"; 
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter basename={"/react-pokedex/"}>
         <Header />
         <Routes>
-          <Route exact path="*" element={<Home />} />
-          <Route path="random" element={<RandomPokémonGenerator />} />
-          <Route exact path="pokemon/:id" element={<PokePage />} />
+          <Route exact path="/" element={<Home />} />
+          <Route path="/random" element={<RandomPokémonGenerator />} />
+          <Route exact path="/pokemon/:id" element={<PokePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
