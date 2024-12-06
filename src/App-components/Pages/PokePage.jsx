@@ -47,7 +47,7 @@ function PokePage() {
       ) : (
         <Link
           style={{ color: "black", textDecoration: "none" }}
-          to={`/pokemon/${pokeInfo.id}`}
+          to={`pokemon/${pokeInfo.id}`}
         >
           <div className="poke-page">
             <h1 className="poke-name">{pokeInfo.name}</h1>
