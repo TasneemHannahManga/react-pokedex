@@ -7,7 +7,7 @@ function Header() {
       <div className="navbar">
         <a href="/">Home</a>
         <a href="random">Random Pokémon</a>
-      </div>
+      </div> 
     </div>
   );
 }

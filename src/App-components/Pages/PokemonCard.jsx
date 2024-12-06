@@ -9,5 +9,5 @@ function Pokemon(props) {
     </a>
   );
 }
-
+ 
 export default Pokemon;

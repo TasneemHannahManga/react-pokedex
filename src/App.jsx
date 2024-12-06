@@ -1,9 +1,9 @@
 import React from "react";
-import Header from "./App-components/Header";
-import RandomPokémonGenerator from "./App-components/Pages/RandomPokémonGenerator";
-import Home from "./App-components/Pages/Home";
-import PokePage from "./App-components/Pages/PokePage";
-import Footer from "./App-components/Footer"; 
+import Header from "App-components/Header";
+import RandomPokémonGenerator from "App-components/Pages/RandomPokémonGenerator";
+import Home from "App-components/Pages/Home";
+import PokePage from "App-components/Pages/PokePage";
+import Footer from "App-components/Footer"; 
 import { BrowserRouter as Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
