@@ -5,9 +5,9 @@ function Header() {
     <div className="header">
       <div className="logo"></div>
       <div className="navbar">
-        <a href="">Home</a>
-        <a href="random">Random Pokémon</a>
-      </div> 
+        <a href="/">Home</a>
+        <a href="/random">Random Pokémon</a>
+      </div>
     </div>
   );
 }
