@@ -1,4 +1,4 @@
-import PokemonCard from "PokemonCard";
+import PokemonCard from "./PokemonCard";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import React, { useState, useEffect } from "react";
