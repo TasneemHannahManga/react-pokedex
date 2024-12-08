@@ -9,7 +9,7 @@ import { BrowserRouter as Routes, Route, HashRouter } from "react-router-dom";
 function App() {
   return (
     <>
-      <HashRouter basename="/react-pokedex/">
+      <HashRouter basename="/react-pokedex">
         <Header /> 
         <Routes>
           <Route exact path="/" element={<Home />} />
