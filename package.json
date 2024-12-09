@@ -1,7 +1,8 @@
 {
   "name": "pok-mon",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.0",{
+  "homepage": "https://tasneemhannahmanga.github.io/react-pokedex/",
   "type": "module",
   "scripts": {
     "dev": "vite",
