@@ -7,9 +7,6 @@ function App() {
   return (
     <>
       <Header />
-
-      <Link to="/react-pokedex/:id">PokePage</Link>
-
       <Outlet />
       <Footer />
     </>
