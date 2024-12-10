@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <RandomPokémonGenerator />,
       },
       {
-        path: "/react-pokedex/pokemon/:id",
+        path: "/react-pokedex/pokemon/id",
         element: <PokePage />,
       },
     ],
