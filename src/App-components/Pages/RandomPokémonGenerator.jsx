@@ -27,7 +27,7 @@ function RandomPokémonGenerator() {
       );
     document
       .getElementById("random-info")
-      .setAttribute("href", `/react-pokedex/pokemon/:${data.id}`);
+      .setAttribute("href", `/react-pokedex/pokemon/${data.id}`);
   }
 
   randomPokemon();

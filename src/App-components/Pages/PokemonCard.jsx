@@ -1,17 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function Pokemon(props) {
   return (
-    <Link
+    <a
       className="pokemon-card-link"
-      to={"/react-pokedex/pokemon/:" + props.id}
+      href={"/react-pokedex/pokemon/" + props.id}
     >
       <div className="pokemon-card">
         <img src={props.pic} />
         <p className="pokemon-name">{props.text}</p>
       </div>
-    </Link>
+    </a>
   );
 }
  
