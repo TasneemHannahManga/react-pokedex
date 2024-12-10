@@ -5,7 +5,7 @@ function Pokemon(props) {
   return (
     <Link
       className="pokemon-card-link"
-      to={"/react-pokedex/pokemon/" + props.id}
+      to={"/react-pokedex/pokemon/:" + props.id}
     >
       <div className="pokemon-card">
         <img src={props.pic} />
